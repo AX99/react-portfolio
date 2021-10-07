@@ -1,6 +1,8 @@
 .about-section {
   width: 80vw;
   margin-top: 10vh;
+  margin-bottom: 12vh;
+  // padding-bottom: 10vh;
   display: flex;
   justify-content: space-between;
   @include media(">=phone", "<lgphone") {
@@ -36,6 +38,10 @@
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
+    }
+
+    .cnctbutton {
+      text-align: center;
     }
   }
   .image-wrapper {

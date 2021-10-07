@@ -19,7 +19,23 @@ const About = () => {
               <br></br>
               <br></br>
               {data.aboutParaThree}
+              <br></br>
+              <br></br>
             </p>
+            <Fade bottom cascade>
+              <br></br>
+              <br></br>
+              <div className="cnctbutton">
+                <a
+                  href={`mailto:${
+                    data.contactEmail ? data.contactEmail : "rapha.mensah@gmail.com"
+                  }`}
+                  className="primary-btn"
+                >
+                  CONNECT WITH ME
+                </a>
+              </div>
+            </Fade>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>

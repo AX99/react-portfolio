@@ -10,12 +10,14 @@ import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
+
 const IndexPage = () => (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <SEO title="Raphael Ako-Mensah Developer Portfolio" />
     <Header></Header>
-    <Work></Work>
+    <br /><br />
     <About></About>
+    <Work></Work>
     <Skills></Skills>
     <Promotion></Promotion>
     <Footer></Footer>
