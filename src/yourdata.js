@@ -11,8 +11,7 @@ import bing from "./images/work/bing.jpg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
+import linkedinIcon from "./images/linkedin.svg"
 import instagramIcon from "./images/instagram.svg"
 
 export default {
@@ -43,7 +42,7 @@ export default {
     {
       title: "JFM Consult Website", //Project Title - Add Your Project Title Here
       para:
-        "A Django backed website created for a client's Life and Career Coaching business.", // Add Your Service Type Here
+        "A website created for a client's Life and Career Coaching business with a Django backend", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         jfm,
@@ -88,7 +87,7 @@ export default {
   aboutParaOne:
     "I am an all-round tech enthusiast with over seven years experience, focused on providing solutions to existing problems with the use of programming.",
   aboutParaTwo:
-    "I come from a tech support background, where my programming skills allow me to contribute to production processes and improve productivity for myself and my team.",
+    "I come from a tech support background, where my programming skills have allowed me to contribute to production processes and improve productivity for myself and my teams.",
   aboutParaThree:
     "Furthermore, as a freelance full stack web developer, I use technologies such as React, HTML5, CSS3, Python, APIs, SQL.",
   aboutImage:
@@ -144,21 +143,19 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Get in contact below",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+    { img: githubIcon, 
+      url: "https://github.com/AX99", 
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/raphael-ako-mensah/",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/SRCAX99",
     },
   ],
 
