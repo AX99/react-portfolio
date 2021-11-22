@@ -3,16 +3,22 @@ import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import djangoIcon from "./images/django.svg"
+import pythonIcon from "./images/python.svg"
+
+//About Image 
+// import about from "./images/about.jpg"
+
+// Work Images
 import jfm from "./images/work/jfm.png"
 import ispy from "./images/work/ispy.jpg"
 import bing from "./images/work/bing.jpg"
+import ecommerce from "./images/work/ecommerce.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
 import linkedinIcon from "./images/linkedin.svg"
-import instagramIcon from "./images/instagram.svg"
+import atIcon from "./images/at.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -34,6 +40,8 @@ export default {
 
   //Contact Email
   contactEmail: "rapha.mensah@gmail.com",
+
+  cvFile:"../Raphael_Ako-Mensah_CV.pdf",
 
   // End Header Details -----------------------
 
@@ -69,6 +77,16 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://github.com/AX99/Bing-Image-Scraper",
     },
+    {
+      title: "Django Ecommerce Template - Under Construction", //Project Title - Add Your Project Title Here
+      para:
+        "A template ecommerce store with a django backend, product database accessed through admin panel", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        ecommerce,
+      //Project URL - Add Your Project Url Here
+      url: "https://github.com/AX99/Ecommerce-Store",
+    },
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
@@ -91,7 +109,11 @@ export default {
   aboutParaThree:
     "Furthermore, as a freelance full stack web developer, I use technologies such as React, HTML5, CSS3, Python, APIs, SQL.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    // "https://images.unsplash.com/photo-1504812445817-cb3d4f235a14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
+    // "https://images.unsplash.com/photo-1520509414578-d9cbf09933a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2804&q=80",
+    // "https://images.unsplash.com/photo-1635606511031-6ef8c6cbf9f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=649&q=80",
+    // about,
 
   //   End About Section ---------------------
 
@@ -102,33 +124,39 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      title: "HTML5",
+      // para:
+      //   "• Point 1",
     },
     {
       img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      title: "CSS3",
+      // para:
+      //   "• Point 1",
     },
     {
       img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      title: "JavaScript",
+      // para:
+      //   "• Point 1",
     },
     {
       img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      title: "reactJS",
+      // para:
+      //   "• Point 1",
     },
     {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: djangoIcon,
+      title: "Django",
+      // para:
+      //   "• Point 1",
     },
     {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: pythonIcon,
+      title: "Python",
+      // para:
+      //   "• Point 1",
     },
   ],
 
@@ -136,9 +164,9 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  // promotionHeading: "Heading",
+  // promotionPara:
+  //   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
@@ -154,12 +182,10 @@ export default {
       url: "https://www.linkedin.com/in/raphael-ako-mensah/",
     },
     {
-      img: instagramIcon,
-      url: "https://www.instagram.com/SRCAX99",
+      img: atIcon,
+      url: "mailto:rapha.mensah@gmail.com",
     },
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com

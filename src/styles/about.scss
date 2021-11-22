@@ -46,8 +46,9 @@
   }
   .image-wrapper {
     width: 50%;
+    height: 75vh;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {

@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import Skills from "../components/skills"
 
 const About = () => {
   return (
@@ -35,7 +36,21 @@ const About = () => {
                   CONNECT WITH ME
                 </a>
               </div>
+              <br></br>
+              <br></br>
+              <div className="cnctbutton">
+                <a
+                  href={data.cvFile ? data.cvFile : "../Raphael_Ako-Mensah_CV.pdf"}
+                  rel="noopener noreferrer"
+                  className="primary-btn"
+                  target="_blank"
+                  download
+                >
+                  Download CV
+                </a>
+              </div>
             </Fade>
+            <Skills></Skills>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>

@@ -12,7 +12,7 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+            Portfolio
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#about")} onKeyDown={() => scrollTo("#about")}>About</button>
