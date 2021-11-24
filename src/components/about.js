@@ -35,10 +35,6 @@ const About = () => {
                 >
                   CONNECT WITH ME
                 </a>
-              </div>
-              <br></br>
-              <br></br>
-              <div className="cnctbutton">
                 <a
                   href={data.cvFile ? data.cvFile : "../Raphael_Ako-Mensah_CV.pdf"}
                   rel="noopener noreferrer"
@@ -49,7 +45,22 @@ const About = () => {
                   Download CV
                 </a>
               </div>
+              <br></br>
+              <div className="social-icons">
+                {data.social.filter(Link => Link.url.includes('http')).map((socialLink, index) => (
+                  <a
+                    key={index}
+                    href={socialLink.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={socialLink.img} alt="icons"></img>
+                  </a>
+                ))}
+              </div>
+              <br></br>
             </Fade>
+            <hr></hr>
             <Skills></Skills>
           </div>
           <div className="image-wrapper">

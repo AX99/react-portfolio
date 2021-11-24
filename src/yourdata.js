@@ -103,11 +103,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I am an all-round tech enthusiast with over seven years experience, focused on providing solutions to existing problems with the use of programming.",
+    "I am an all-round tech enthusiast focused on providing solutions to existing problems with the use of programming.",
   aboutParaTwo:
     "I come from a tech support background, where my programming skills have allowed me to contribute to production processes and improve productivity for myself and my teams.",
   aboutParaThree:
-    "Furthermore, as a freelance full stack web developer, I use technologies such as React, HTML5, CSS3, Python, APIs, SQL.",
+    "Furthermore, as a freelance full stack web developer, I work on client projects using technologies such as React, HTML5, CSS3, Python, APIs, SQL.",
   aboutImage:
     // "https://images.unsplash.com/photo-1504812445817-cb3d4f235a14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
     // "https://images.unsplash.com/photo-1520509414578-d9cbf09933a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2804&q=80",
