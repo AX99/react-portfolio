@@ -1,5 +1,8 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import logo from "../images/logo.png"
+
+
 const Navbar = () => {
   return (
     <div className="section">
@@ -12,7 +15,9 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio
+            <button>
+              <img src={logo} alt="logo" />
+            </button>
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#about")} onKeyDown={() => scrollTo("#about")}>About</button>
