@@ -20,7 +20,7 @@ import githubIcon from "./images/github.svg"
 import linkedinIcon from "./images/linkedin.svg"
 import atIcon from "./images/at.svg"
 
-export default {
+const data = {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
@@ -189,3 +189,5 @@ export default {
 
   // End Contact Section ---------------
 }
+
+export default data 
