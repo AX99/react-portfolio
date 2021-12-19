@@ -1,4 +1,5 @@
 import React from "react"
+import ScrollToTop from "react-scroll-to-top"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -16,6 +17,10 @@ const IndexPage = () => (
     <About></About>
     <Work></Work>
     <Footer></Footer>
+    <ScrollToTop 
+      top = "800"
+      smooth
+    />
   </Layout>
 )
 
